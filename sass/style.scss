@@ -1,0 +1,434 @@
+/* --- RESET CSS --- */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+  }
+  
+  /* --- GENERAL STYLES --- */
+  html {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #body {
+    max-width: 1400px;
+    width: 100%;
+    background-color: #fffefb;
+  }
+  
+  #header {
+    width: 100%;
+    height: 50px;
+    background-color: #ffe2d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  /* --- NAVBAR --- */
+  .navbar {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navBar ul {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .navBar a {
+    color: #bb285c;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  /* li {
+    display: inline-block;
+  } */
+  
+  /* --- CONTACT SECTION --- */
+  .main_contact {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .main_contact img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .container_visit {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container_visit_text {
+    flex: 1;
+  }
+  .container_visit_text h2 {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .container_visit_text p {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .container_visit > img {
+    border-radius: 10px;
+    flex: 1;
+  }
+  .redes {
+    display: flex;
+    gap: 50px;
+    margin-top: 24px;
+  }
+  .redes img {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+  }
+  /*APOYANOS*/
+  
+  .titulo_apoyanos {
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    flex-direction: column;
+    color: #bb285c;
+    position: absolute;
+    padding-left: 60px;
+    top: 80px;
+  }
+  
+  .main_apoyanos {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .main_apoyanos img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .apoyanos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+  }
+  /* Index*/
+  .main {
+    width: 100%;
+    padding: 50px 40px 0 40px;
+    height: calc(100% - 99px);
+    background-image: url("../images/fondo_inicio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+  .container_buttons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .boton_principal {
+    background-color: #bb285c;
+    border-radius: 30px;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+  }
+  .boton_secundario {
+    background-color: #ffb4b0;
+    border-radius: 30px;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+  }
+  .fundacionLogo {
+    color: #bb285c;
+    display: inline-block;
+    font-family: "Beau Rivage", cursive;
+    font-size: 30px;
+  }
+  .subtitulo {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 15px;
+  }
+  
+  .titulo {
+    margin-bottom: 60px;
+    font-size: 35px;
+  }
+  
+  .parrafo {
+    max-width: 700px;
+    font-size: 20px;
+    margin-bottom: 200px;
+  }
+  
+  /* Formulario de contacto */
+  .container_form {
+    display: flex;
+    justify-content: center;
+  }
+  .form {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/vector-gratis/adorable-fondo-estampado-pata-perfecto-ninos-amantes-animales_1017-47508.jpg");
+  }
+  .form textarea {
+    resize: none;
+  }
+  
+  .form_1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .form_1 input {
+    flex: 1;
+    height: 38px;
+  }
+  
+  .form_2 {
+    height: 38px;
+  }
+  
+  .title_form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .title_form h5 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .container_contact_send {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contact_send {
+    background-color: #bb285c;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 12px;
+    color: white;
+    border: none;
+  }
+  
+  /* --- IMAGE GALLERY SECTION --- */
+  .main_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main_images::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://img.freepik.com/vector-gratis/adorable-fondo-estampado-pata-perfecto-ninos-amantes-animales_1017-47508.jpg");
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .title_images {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .images_grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    grid-template-areas:
+      "img1 img2 img2 img3"
+      "img4 img4 img5 img5"
+      "img6 img7 img8 img9";
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  
+  .images_grid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: fill;
+  }
+  
+  .images_grid img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Asignación de las imágenes en la grilla */
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img4 {
+    grid-area: img4;
+  }
+  .img5 {
+    grid-area: img5;
+  }
+  .img6 {
+    grid-area: img6;
+  }
+  .img7 {
+    grid-area: img7;
+  }
+  .img8 {
+    grid-area: img8;
+  }
+  .img9 {
+    grid-area: img9;
+  }
+  
+  /*--ADOPCIONES--*/
+  .container_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #bb285c;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+  }
+  
+  .container_title h3 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .container_bottons {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .boton_adopciones {
+    background-color: #bb285c;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    margin-top: 46px;
+  }
+  .container_requisitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .title_requisitos {
+    width: 200px;
+    height: 50px;
+    background-color: #ffe2d8;
+    border: 1px solid #bb285c;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+  }
+  .requisitos {
+    border: 1px solid #bb285c;
+    padding: 50px 10px 50px 10px;
+  }
+  
+  /* --- FOOTER --- */
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: grey;
+    padding: 10px 20px;
+    align-items: center;
+    color: white;
+  }
+  
+  .footer-redes img {
+    width: 25px;
+    border-radius: 50%;
+  }
+  /*--MEDIA QUERY---*/
+  @media (max-width: 700px) {
+    .parrafo {
+      margin-bottom: 20px;
+    }
+    .navBar {
+      display: none;
+    }
+  
+    input[type="checkbox"]:checked ~ .navBar {
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50px;
+      padding: 30px;
+      backdrop-filter: blur(10px);
+      font-size: 20px;
+      font-weight: bold;
+      z-index: 2;
+    }
+  
+    input[type="checkbox"]:checked ~ .navBar ul {
+      flex-direction: column;
+      text-align: right;
+    }
+  
+    input[type="checkbox"]:checked ~ .navBar ul a {
+      color: #bb285c;
+    }
+  }
+  @media (min-width: 701px) {
+    .menu_button img {
+      display: none;
+    }
+  }
+  .menu_button input {
+    display: none;
+  }
+  

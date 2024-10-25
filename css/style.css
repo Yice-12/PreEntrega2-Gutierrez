@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* --- RESET CSS --- */
 * {
   margin: 0;
@@ -43,6 +44,7 @@ html {
   gap: 20px;
   flex-wrap: wrap;
 }
+
 .navBar a {
   color: #bb285c;
   font-size: 15px;
@@ -52,17 +54,18 @@ html {
 /* li {
   display: inline-block;
 } */
-
 /* --- CONTACT SECTION --- */
 .main_contact {
   position: relative;
   margin-bottom: 40px;
 }
+
 .main_contact img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
+
 .container_visit {
   margin-top: 40px;
   display: flex;
@@ -71,67 +74,117 @@ html {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .container_visit_text {
   flex: 1;
 }
+.container_visit_text h3 {
+  color: rg;
+  margin-bottom: 20px;
+}
+
 .container_visit_text h2 {
   margin-bottom: 10px;
   display: flex;
 }
+
 .container_visit_text p {
   line-height: 30px;
   font-size: 20px;
 }
+
 .container_visit > img {
   border-radius: 10px;
   flex: 1;
 }
+
 .redes {
   display: flex;
   gap: 50px;
   margin-top: 24px;
 }
+
 .redes img {
   border-radius: 50%;
   width: 50px;
   height: auto;
 }
+
+/*APOYANOS*/
+.titulo_apoyanos {
+  font-size: 25px;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  flex-direction: column;
+  color: #bb285c;
+  position: absolute;
+  padding-left: 60px;
+  top: 80px;
+}
+
+.main_apoyanos {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.main_apoyanos img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.apoyanos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+}
+
 /* Index*/
 .main {
   width: 100%;
   padding: 50px 40px 0 40px;
   height: calc(100% - 99px);
-  background-image: url("./images/fondo_inicio.jpg");
+  background-image: url("../images/fondo_inicio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: white;
 }
+
 .container_buttons {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  cursor: pointer;
 }
+
 .boton_principal {
   background-color: #bb285c;
   border-radius: 30px;
   padding: 8px 20px;
   border: none;
   color: white;
+  cursor: pointer;
 }
+
 .boton_secundario {
   background-color: #ffb4b0;
   border-radius: 30px;
   padding: 8px 20px;
   color: white;
   border: none;
+  cursor: pointer;
 }
+
 .fundacionLogo {
   color: #bb285c;
   display: inline-block;
   font-family: "Beau Rivage", cursive;
   font-size: 30px;
 }
+
 .subtitulo {
   margin-top: 40px;
   margin-bottom: 80px;
@@ -154,6 +207,7 @@ html {
   display: flex;
   justify-content: center;
 }
+
 .form {
   margin-top: 80px;
   margin-bottom: 40px;
@@ -167,6 +221,7 @@ html {
   border-radius: 10px;
   background-image: url("https://img.freepik.com/vector-gratis/adorable-fondo-estampado-pata-perfecto-ninos-amantes-animales_1017-47508.jpg");
 }
+
 .form textarea {
   resize: none;
 }
@@ -194,14 +249,17 @@ html {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .title_form h5 {
   font-weight: bold;
   font-size: 25px;
 }
+
 .container_contact_send {
   display: flex;
   justify-content: flex-end;
 }
+
 .contact_send {
   background-color: #bb285c;
   border-radius: 30px;
@@ -209,6 +267,7 @@ html {
   font-size: 12px;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 /* --- IMAGE GALLERY SECTION --- */
@@ -244,10 +303,7 @@ html {
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 250px);
-  grid-template-areas:
-    "img1 img2 img2 img3"
-    "img4 img4 img5 img5"
-    "img6 img7 img8 img9";
+  grid-template-areas: "img1 img2 img2 img3" "img4 img4 img5 img5" "img6 img7 img8 img9";
   column-gap: 20px;
   row-gap: 20px;
 }
@@ -267,36 +323,37 @@ html {
 .img1 {
   grid-area: img1;
 }
+
 .img2 {
   grid-area: img2;
 }
+
 .img3 {
   grid-area: img3;
 }
+
 .img4 {
   grid-area: img4;
 }
+
 .img5 {
   grid-area: img5;
 }
+
 .img6 {
   grid-area: img6;
 }
+
 .img7 {
   grid-area: img7;
 }
+
 .img8 {
   grid-area: img8;
 }
+
 .img9 {
   grid-area: img9;
-}
-
-/* --- TITLES AND TEXT --- */
-
-.container_title h3 {
-  margin-top: 20px;
-  font-size: 30px;
 }
 
 /*--ADOPCIONES--*/
@@ -311,12 +368,17 @@ html {
   left: 0;
   right: 0;
 }
+
 .container_title h3 {
   margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 30px;
 }
+
 .container_bottons {
   display: flex;
   gap: 50px;
+  cursor: pointer;
 }
 
 .boton_adopciones {
@@ -327,7 +389,9 @@ html {
   color: white;
   border: none;
   margin-top: 46px;
+  cursor: pointer;
 }
+
 .container_requisitos {
   display: flex;
   justify-content: center;
@@ -336,6 +400,7 @@ html {
   margin-top: 30px;
   position: relative;
 }
+
 .title_requisitos {
   width: 200px;
   height: 50px;
@@ -345,13 +410,13 @@ html {
   position: absolute;
   top: 10px;
 }
+
 .requisitos {
   border: 1px solid #bb285c;
   padding: 50px 10px 50px 10px;
 }
 
 /* --- FOOTER --- */
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -366,6 +431,7 @@ html {
   width: 25px;
   border-radius: 50%;
 }
+
 /*--MEDIA QUERY---*/
 @media (max-width: 700px) {
   .parrafo {
@@ -374,7 +440,6 @@ html {
   .navBar {
     display: none;
   }
-
   input[type="checkbox"]:checked ~ .navBar {
     display: block;
     position: absolute;
@@ -387,12 +452,10 @@ html {
     font-weight: bold;
     z-index: 2;
   }
-
   input[type="checkbox"]:checked ~ .navBar ul {
     flex-direction: column;
     text-align: right;
   }
-
   input[type="checkbox"]:checked ~ .navBar ul a {
     color: #bb285c;
   }
@@ -402,7 +465,8 @@ html {
     display: none;
   }
 }
-
 .menu_button input {
   display: none;
 }
+
+/*# sourceMappingURL=style.css.map */
