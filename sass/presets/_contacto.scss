@@ -1,0 +1,117 @@
+.main_contact {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .main_contact img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .container_visit {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container_visit_text {
+    flex: 1 300px;
+  }
+  .container_visit_text h2 {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .container_visit_text h3{
+    color:#929292 ;
+    margin-bottom: 20px;
+  }
+ 
+  .container_visit_text p {
+    line-height: 30px;
+    font-size: 20px;
+  
+  }
+  .horarios{
+    color: #333;
+    font-weight: bold;
+  }
+  .container_visit > img {
+    border-radius: 10px;
+    flex: 1;
+  }
+  .redes {
+    display: flex;
+    gap: 50px;
+    margin-top: 24px;
+   
+  }
+  .redes img {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+  }
+  .redes img:hover {
+    transform: scale(1.03);
+  }
+  .container_form {
+    display: flex;
+    justify-content: center;
+  }
+  .form {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/vector-gratis/adorable-fondo-estampado-pata-perfecto-ninos-amantes-animales_1017-47508.jpg");
+  }
+  .form textarea {
+    resize: none;
+  }
+  
+  .form_1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .form_1 input {
+    flex: 1;
+    height: 38px;
+  }
+  
+  .form_2 {
+    height: 38px;
+  }
+  
+  .title_form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .title_form h5 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .container_contact_send {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contact_send {
+    background-color: #bb285c;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 12px;
+    color: white;
+    border: none;
+  }

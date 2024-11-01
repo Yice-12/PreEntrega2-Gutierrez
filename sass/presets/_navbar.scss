@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navBar ul {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .navBar a {
+    color: #bb285c;
+    font-size: 15px;
+    font-weight: bold;
+  }

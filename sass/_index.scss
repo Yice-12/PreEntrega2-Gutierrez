@@ -1,0 +1,62 @@
+@use "./variables.scss" as vars;
+
+
+.main {
+    width: 100%;
+    padding: 50px 40px 0 40px;
+    height: calc(100% - 99px);
+    background-image: url("../images/fondo_inicio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+  .container_buttons {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .boton_principal {
+    background-color: vars.$color-secundario;
+    border-radius: 30px;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .boton_principal:hover {
+    transform: scale(1.03);
+  }
+  .boton_secundario {
+    background-color: vars.$color-terciario;
+    border-radius: 30px;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .boton_secundario:hover {
+    transform: scale(1.03);
+  }
+  .fundacionLogo {
+    color: #bb285c;
+    display: inline-block;
+    font-family: "Beau Rivage", cursive;
+    font-size: 30px;
+  }
+  .subtitulo {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 15px;
+  }
+  
+  .titulo {
+    margin-bottom: 60px;
+    font-size: 35px;
+  }
+  
+  .parrafo {
+    max-width: 700px;
+    font-size: 20px;
+    margin-bottom: 200px;
+  }
