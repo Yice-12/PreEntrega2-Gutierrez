@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Importación de tipo de letra Beau Rivage -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,7 +13,12 @@
       rel="stylesheet"
     />
 
+    <!-- Etiquetas de SEO -->
     <title>Contacto</title>
+    <meta
+      name="description"
+      content="Contacta Fundación Pets para que te pueda brindar información y aclarar tu dudas acerca de los perritos."
+    />
   </head>
 
   <body id="body">
@@ -34,7 +41,7 @@
       </div>
     </header>
     <main class="main_contact">
-      <img src="../images/grupo_perros.jpg" />
+      <img src="../images/grupo_perros.jpg" alt="grupo de perros" />
       <section class="container_title">
         <h1>QUEREMOS ESCUCHARTE</h1>
         <h2>Contáctanos</h2>
@@ -60,12 +67,13 @@
             noticias relacionados con la fundación.
           </p>
           <section class="redes">
-            <img src="../icons/facebook.png" />
-            <img src="../icons/instagram.webp" />
+            <img src="../icons/facebook.png" alt="icon-facebook" />
+            <img src="../icons/instagram.webp" alt="icon-instagram" />
           </section>
         </div>
         <img
           src="https://d2yoo3qu6vrk5d.cloudfront.net/images/20190528120309/thumbnail-2-639x485.jpg"
+          alt="señora con un grupo de perros"
         />
       </article>
 
@@ -77,17 +85,22 @@
               <h3>Mándanos un mensaje</h3>
             </section>
             <section class="form_1">
-              <input type="text" placeholder="nombre completo" />
-              <input type="Celular" placeholder="Celular" />
+              <input
+                type="text"
+                placeholder="nombre completo"
+                name="fullName"
+              />
+              <input type="number" placeholder="Celular" name="phone" />
             </section>
 
             <input
+              name="email"
               class="form_2"
               type="email"
               placeholder="Correo electronico"
             />
 
-            <textarea name="Mensage" rows="7"></textarea>
+            <textarea name="Mensage" rows="7" type="text"></textarea>
             <section class="container_contact_send">
               <button class="contact_send">ENVIAR</button>
             </section>
@@ -100,8 +113,8 @@
         2024 Fundación pets. Todos los derechos reservados. | Donado con amor.
       </section>
       <section class="footer-redes">
-        <img src="../icons/facebook.png" />
-        <img src="../icons/instagram.webp" />
+        <img src="../icons/facebook.png" alt="icon-facebook" />
+        <img src="../icons/instagram.webp" alt="icon-instagram" />
       </section>
     </footer>
   </body>

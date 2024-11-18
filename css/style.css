@@ -227,7 +227,7 @@
 
 .redes {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   margin-top: 24px;
 }
 
@@ -422,6 +422,8 @@
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   justify-content: space-between;
   width: 100%;
   background-color: grey;
